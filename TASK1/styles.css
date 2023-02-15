@@ -1,0 +1,393 @@
+
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html
+{
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+#home_page
+{
+    background-image: url('images/Wallpaper-House.com_214874.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height:100vh;
+    width: 100%;
+}
+.container-fluid
+{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    position:fixed;
+    gap:40%;
+    background-color: rgba(204, 204, 204, 0.285);
+    width: 100%;
+    height:60px;
+    z-index: 1;
+}
+
+a{
+    color:white;
+  
+}
+
+ul
+{
+    display: flex;
+    /* justify-content: space-around; */
+    gap:2rem; 
+   
+}
+
+.nav-item a:hover
+{
+   color: rgb(84, 37, 0);
+}
+
+.main-content
+{
+   color:white;
+   text-align: center;
+}
+
+.heading
+{
+    font-size: 7rem;
+    padding-top: 180px;
+    padding-bottom: 30px ;  
+    color:white;
+    /* background: linear-gradient(to right, rgb(230, 85, 1) 40%, rgb(249, 248, 249) 30%,rgb(0, 130, 0) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 4px black; */
+    letter-spacing: 0.5rem;
+
+          
+      
+}
+
+ .main-content p
+{
+    width:80vw;
+    display: inline-block;
+    text-align: center;
+    /* padding-top: 40px; */
+    font-size: 1.4rem;
+    font-weight:100;
+    color:rgb(250, 248, 248);
+    
+}
+
+.slogan
+{
+    font-size: 2rem;
+    /* -webkit-text-stroke: 2px rgb(0, 0, 0); */
+    padding: 20px 0;
+   
+   
+          
+}
+
+.btn
+{
+    background-color: transparent;
+    margin-top: 10px;
+    padding: 20px;
+    font-weight:bolder;
+    cursor: pointer;
+    text-align:center;
+    border-radius: 10%;
+    color:white;
+    border-color: rgb(247, 168, 0);
+    font-size: 1rem;
+  
+}
+
+#explore_page
+{
+    background-image: url('images/Explore.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center; 
+    height:100vh;
+    width: 100%;
+}
+
+.explore_content
+{
+    color:white;
+    padding: 65px 0 0 34px;
+}
+
+hr{
+    width: 30%;
+    border: 2px solid;
+   
+}
+
+.para
+{
+    text-align: start;
+    padding-top: 20px;
+}
+
+#container {
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+  }
+
+.card {
+    background-color: rgba(255, 255, 255, 0.734);
+    padding: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.card_details
+{
+  
+    color:black;
+    text-align: center;
+}
+
+.card_details p
+{
+   padding: 10px;
+   text-align: justify;
+}
+
+.card:hover{
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+ 
+}
+
+#travel_page
+{
+    background-image: url('images/Travel.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center; 
+    height:100vh;
+    width: 100%;
+}
+
+.travel_content
+{
+    color:white;
+    padding: 90px 0 0 80px;
+}
+
+
+.img-slider {
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+    width: 900px;
+    height: 400px;
+    /* border-radius: 2px; */
+    background: #f9f7f743;
+    color: white;
+    overflow: hidden;
+    background-image: url('images/dal-lake.jpg');
+    background-size: 100% 100%;
+    animation: changeImage 20s linear infinite;
+    z-index: 0;
+  
+}
+
+@keyframes changeImage {
+
+    0%{
+        background-image: url('images/dal-lake.png');
+        
+    }
+    25%{
+        background-image: url('images/Hampi.png');
+    }
+    50%{
+        background-image: url('images/Jaisalmer.png');
+    }
+    75%{
+        background-image: url('images/Munnar-Kerala-1.png');
+    }
+    100%{
+        background-image: url('images/dal-lake.png');
+    }
+    
+}
+
+
+
+.img-slider:hover { 
+    animation-play-state: paused;
+ }
+
+ #festival_page
+ {
+     background-image: url('images/Festivals.jpg');
+     background-size: cover;
+     background-repeat: no-repeat; 
+     background-attachment: fixed;
+     background-position: center; 
+     height:100vh;
+     width: 100%;
+     background-size: 100% 100%;
+ }
+ 
+ .festival_content
+ {
+     color:white;
+     padding: 70px 0 5px 0;
+     text-align: center;
+ }
+
+ .festival_content hr
+ {
+    
+    margin:10px auto 20px auto;
+   
+ }
+  
+
+ #contain {
+    max-width: 900px;
+    margin:  auto;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+ 
+  }
+.card1
+{
+    background-color: rgba(255, 255, 255, 0.689);
+    padding: 2px;
+    /* border-radius: 1px; */
+    cursor: pointer;
+}
+
+#contact_page
+{
+      height:100vh;
+      width: 100%;
+      color: white;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+     
+}
+
+
+.contact_content
+{
+    height:90vh;
+    width: 100%;
+    background-image: url('images/1244695.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: 100% 100%;
+    display: flex;
+    /* justify-content: space-around; */
+ 
+    padding-top: 90px;
+
+}
+
+.info_div h1
+{
+    padding: 50px 10px;
+}
+
+.info_div h2
+{
+    padding: 20px;
+
+}
+.info_div p
+{
+    width:50%;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 40px;
+    display: inline-block;
+    
+}
+
+.btn2
+{
+
+    background-color: transparent;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight:bolder;
+    cursor: pointer;
+    text-align:center;
+    border-width: 4px;
+    color:white;
+    border-color: rgb(247, 168, 0);
+    font-size: 1rem;
+  
+
+}
+
+.last
+{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    padding-top: 20px;
+
+}
+
+form {
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    text-align: start;
+    
+  }
+
+  .textbox1
+  {
+    height:30px;
+    width:200px;
+
+  }
+  .textbox2
+  {
+    height:100px;
+    width:460px;
+  }
+
+  .submitbtn
+  {
+      padding: 10px 20px;
+      color: black;
+      background-color: white;
+      font-size: 1rem;
+      font-weight: 500;
+      
+  }
+
+  .full-width {
+    grid-column: span 2;
+  }
