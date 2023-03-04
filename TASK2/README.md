@@ -1,7 +1,5 @@
 # Task2 - Portfolio
 
-Visit the website at: 
-
 #Screenshot of Task
 
 ![Screenshot (31)](https://user-images.githubusercontent.com/104140191/222922892-1d5b1029-7b92-454d-99bf-63f52d0d2812.png)
