@@ -1,7 +1,6 @@
 
 # Task3 - Temperature Converter
 
-Visit the website at: 
 
 #Screenshot of Task
 
