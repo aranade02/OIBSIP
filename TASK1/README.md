@@ -1,8 +1,6 @@
 
 # Task1 - Landing Page
 
-Visit the website at: 
-
 #Screenshot of Task
 >![Home-SS](https://user-images.githubusercontent.com/104140191/219138843-01a7b530-8857-443c-b15d-80a00e4ec23c.png)
 
