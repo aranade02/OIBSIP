@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3bffc790b4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome.com/4.7.0/css/font-awesome..min.css"> -->
+
+  
+    <title>JS Project</title>
+    </head>
+    <body>
+        <header><h1>Temperature Converter</h1></header>
+        
+    <div class="container">
+          
+         <form id="tempCalc" onsubmit="calculateTemp(); return false">
+            <h2>Please enter the temperature you would like to convert</h2>
+            <div class="textbox1">
+            <input type="number" class="textbox" id="value1">
+            <select id="temp" class="textbox">
+              <option value="celsius">°celsius</option>
+              <option value="farenheit">°farenheit</option>
+            </select> 
+            </div><br>
+            <input type="submit" value="Convert" class="btn"><br/>
+            <span id="Finalresult"></span>
+
+        </form>
+    </div>
+<script src="index.js"></script>
+  </body>
+</html>
